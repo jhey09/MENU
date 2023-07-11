@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color:#FFC72C;
+}
+
+
+body {
+   
+    background:  linear-gradient(rgba(5, 7, 12, 0.80), rgba(5, 7, 12, 0.80)),  url(https://img.freepik.com/vector-premium/bandera-colombia-pincel-pintura_1078-609.jpg?w=2000)  no-repeat right top fixed;
+   background-position: center;
+   min-height: 100vh;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.hola{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+
+
+.lista{
+    margin-top: 5%;
+}
+  
+.lista ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+.lista ul li {
+    display: inline-block;
+  }
+  
+  .lista ul li a {
+    display: block;
+    padding: 15px;
+    color: #FFC72C;
+    text-decoration: none;
+
+  }
+  
+  .lista ul li a:hover {
+    background-color: #a5a2a2;
+    border-radius: 60%;
+  }
+
+  h3{
+    margin-top: 10%;
+  }
+  .CardIMG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carta{
+    margin: 2%;
+    display: none;
+    
+  }
+  .card h4{
+    color: #FFC72C;
+  }
+  .card-body{
+    background:  #000022;
+    width: 100%;
+  }
+  
